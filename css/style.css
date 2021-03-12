@@ -1,0 +1,96 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap'); */
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* font-family: 'Roboto', sans-serif; */
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  /* background: #fff; */
+  background: #73af59;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  z-index: 2;
+}
+ul li {
+  list-style: none;
+}
+.my {
+  /* text-decoration: underline; */
+  font-size: 50px;
+  font-weight: 700;
+  color: #fff;
+  display: inline-block;
+  padding: 5px 20px;
+}
+ul li a {
+  text-decoration: none;
+  font-size: 48px;
+  font-weight: 700;
+  color: #fff;
+  display: inline-block;
+  padding: 5px 20px;
+}
+ul li a:hover {
+  color: #73af59;
+  background: #fff;
+}
+.fb a,
+.inst a {
+  font-size: 38px;
+}
+.fb a:hover {
+  color: #fff;
+  background: #4267b2;
+}
+.inst a:hover {
+  color: #fff;
+  background: linear-gradient(
+    45deg,
+    #405de6,
+    #5851db,
+    #833ab4,
+    #c13584,
+    #e1306c,
+    #fd1d1d
+  );
+}
+
+@media (max-width: 750px) {
+  ul li a {
+    font-size: 2em;
+  }
+}
+
+.block {
+  position: absolute;
+  width: 75px;
+  height: 125px;
+  background: #73af59;
+  /* background: #000; */
+  box-shadow: 10px 10px 50px rgba(0, 0, 0, 0.2);
+}
