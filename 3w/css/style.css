@@ -1,0 +1,78 @@
+body {
+  background-color: #393e46;
+}
+.container {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+#myBtn {
+  background-color: #4ecca3;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 24px;
+  margin: 30px 0;
+  border-radius: 10px;
+  outline: none;
+  cursor: pointer;
+}
+#myBtn:hover {
+  background-color: #fff;
+  color: #4ecca3;
+}
+#myBtn:active {
+  background-color: #fff;
+  color: #4ecca3;
+  transform: translateY(2px);
+}
+
+:is(.firstPlayer, .secondPlayer) {  /* :is only on chrome and firefox, I test*/
+  text-align: center;
+  display: inline-block;
+}
+h1 {
+  margin: 30px;
+  font-family: "Lobster", cursive;
+  text-shadow: 5px 0 #232931;
+  font-size: 7rem;
+  color: #4ecca3;
+}
+h3 {
+  color: #fff;
+  font-size: 24px;
+  font-family: "Lobster", cursive;
+}
+p {
+  margin: 15px 0 20px;
+  font-family: "Lobster", cursive;
+  text-shadow: 5px 0 #232931;
+  font-size: 3rem;
+  color: #4ecca3;
+  cursor: pointer;
+}
+
+img {
+  height: 220px;
+  width: 220px;
+  padding: 50px;
+}
+input {
+  outline: none;
+  padding: 5px 5px;
+  margin: 2px 0;
+  box-sizing: border-box;
+}
+button {
+  color: #fff;
+  cursor: pointer;
+  outline: none;
+  background-color: #4ecca3;
+  /* border-color: #fff; */
+  border-radius: 5px;
+  /* height: 29px; */
+  padding: 6px 10px;
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3wthedishes?</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container" id="container">
+        <h1>3wthedishes?</h1>
+        <h3>Who will wash the dishes?</h3>
+        <div>
+            <button id="myBtn">Refresh</button>
+        </div>
+        <div class="firstPlayer">
+          <div id="labelDisplay1">
+          <label for="myText1"></label>
+          <input type="text" id="myText1" value="Player 1" maxlength="10">
+          <button onclick="changePlayer1()">Select</button>
+          </div>
+          <p id="player1" onclick="visibilityInput1()">Player 1</p>
+          <img class="img1" src="images/prs.png">
+        </div>
+  
+        <div class="secondPlayer">
+          <div id="labelDisplay2">
+            <label for="myText2"></label>
+            <input type="text" id="myText2" value="Player 2" maxlength="10">
+            <button onclick="changePlayer2()">Select</button>
+            </div>
+          <p id="player2" onclick="visibilityInput2()">Player 2</p>
+          <img class="img2" src="images/prs.png">
+        </div>
+        
+  
+      </div>
+
+<script src="js/script.js"></script>
+</body>
+</html>
